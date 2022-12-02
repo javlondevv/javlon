@@ -1,0 +1,137 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+          rel="stylesheet">
+
+    <title>Sixteen Clothing HTML Template</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{% static 'vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+    <!--
+
+    TemplateMo 546 Sixteen Clothing
+
+    https://templatemo.com/tm-546-sixteen-clothing
+
+    -->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{% static 'assets/css/fontawesome.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/templatemo-sixteen.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/owl.css' %}">
+
+</head>
+
+<body>
+
+<!-- ***** Preloader Start ***** -->
+<div id="preloader">
+    <div class="jumper">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</div>
+<!-- ***** Preloader End ***** -->
+
+<!-- Header -->
+<header class="">
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><h2> Nike. <em>Just Do it</em></h2></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="products.html">Our Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="detail.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<!-- Page Content -->
+<!-- Banner Starts Here -->
+{% block banner %}
+<div class="banner header-text">
+    <div class="owl-banner owl-carousel">
+        <div class="banner-item-01">
+            <div class="text-content">
+                <h4>BLACK FRIDAY Sale</h4>
+                <h2>The sale you've been waiting for is here — use code BLACKFRIDAY to get an extra 20% off select styles.</h2>
+            </div>
+        </div>
+        <div class="banner-item-02">
+            <div class="text-content">
+                <h4>Nike.Just Do it</h4>
+                <h2>Get your best products</h2>
+            </div>
+        </div>
+        <div class="banner-item-03">
+            <div class="text-content">
+                <h4>Nike.Just Do it</h4>
+                <h2>Grab last minute deals</h2>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+<!-- Banner Ends Here -->
+    {% block content %}
+    
+    {% endblock %}
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="inner-content">
+                    <p>Copyright &copy; 2020 Sixteen Clothing Co., Ltd.
+
+                        - Design: <a rel="nofollow noopener" href="https://templatemo.com"
+                                     target="_blank">TemplateMo</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<!-- Bootstrap core JavaScript -->
+<script src="{% static 'vendor/jquery/jquery.min.js' %}"></script>
+<script src="{% static 'vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+
+
+<!-- Additional Scripts -->
+<script src="{% static 'assets/js/custom.js' %}"></script>
+<script src="{% static 'assets/js/owl.js' %}"></script>
+<script src="{% static 'assets/js/slick.js' %}"></script>
+<script src="{% static 'assets/js/isotope.js' %}"></script>
+<script src="{% static 'assets/js/accordions.js' %}"></script>
+
+
+</body>
+
+</html>

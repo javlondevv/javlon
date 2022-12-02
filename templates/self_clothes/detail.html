@@ -1,0 +1,42 @@
+{% extends 'self_clothes/main.html' %}
+{% block banner %}
+    <!-- Page Content -->
+    <div class="page-heading about-h    eading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="text-content">
+              <h4>about us</h4>
+              <h2>our company</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    <div class="best-features about-features">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-heading">
+              <h2>Product detail</h2>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="right-image">
+              <img src="{{ cloth.image.url }}" alt="">
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="left-content">
+              <h4>{{ cloth.name }}</h4>
+                <p>{{ cloth.description|safe }}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+{% endblock %}

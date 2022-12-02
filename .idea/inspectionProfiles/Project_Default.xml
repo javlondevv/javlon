@@ -1,0 +1,19 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="Thread" />
+          <option value="email.mime.multipart.MIMEText" />
+          <option value="main.send_mail" />
+          <option value="main.writeFile" />
+          <option value="starlette.templating.*" />
+          <option value="tuple.pop" />
+          <option value="config.settings" />
+          <option value="super.save" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
